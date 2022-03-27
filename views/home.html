@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/home/css/body.css" />
+    <!-- ! for server 👇 -->
+    <!-- <link rel="stylesheet" href="/home/css/body.css"> -->
+    <link rel="stylesheet" href="../public/home/css/nav.css" />
+  </head>
+  <body>
+    <div class="openMenu" onclick="openMenu()" id="openMenu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav id="nav">
+      <div id="nav-data">
+        <ul>
+          <a href="">
+            <li>Home</li>
+          </a>
+          <a href="">
+            <li>Future</li>
+          </a>
+          <a href="">
+            <li>About Us</li>
+          </a>
+          <a href="">
+            <li>Contact Us</li>
+          </a>
+          <a href="">
+            <li>Blog</li>
+          </a>
+        </ul>
+        <!-- ! close menu btn 👇 -->
+        <div class="closeMenu" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+    </nav>
+
+    <!--  link fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/e3e7fc892f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  ! link menu js -->
+    <script src="../public/home/js/menu.js"></script>
+  </body>
+</html>

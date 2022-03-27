@@ -1,0 +1,35 @@
+@mixin flex-navbar {
+  height: 5.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin flex-navbar-mobile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+@mixin openMenu {
+  color: #00b894;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: block !important;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+@mixin closeMenu {
+  color: #ff7675;
+  display: block !important;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
