@@ -33,3 +33,12 @@
   font-size: 24px;
   cursor: pointer;
 }
+
+// header style flex
+@mixin header-flex {
+  display: flex;
+  justify-content: center;
+  flex-flow: row-reverse;
+  align-items: center;
+  margin-top: 18px;
+}

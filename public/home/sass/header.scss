@@ -1,0 +1,27 @@
+@import "./code";
+
+header {
+  @include header-flex();
+  //   .image {
+
+  //   }
+  .header-dec {
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    // style the btns
+    .header-btns button {
+      background: #38ada9;
+      border: 0px solid white;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 18px;
+      margin-top: 13px;
+      &:hover {
+        background: #57606f;
+      }
+    }
+  }
+}

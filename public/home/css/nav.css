@@ -16,6 +16,8 @@ nav {
         list-style-type: none; }
 
 @media screen and (max-width: 992px) {
+  body {
+    display: flex; }
   nav {
     width: 0px;
     height: 100vh;

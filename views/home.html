@@ -9,6 +9,8 @@
     <!-- ! for server 👇 -->
     <!-- <link rel="stylesheet" href="/home/css/body.css"> -->
     <link rel="stylesheet" href="../public/home/css/nav.css" />
+    <!--  ! link header style file -->
+    <link rel="stylesheet" href="../public/home/css/header.css" />
   </head>
   <body>
     <div class="openMenu" onclick="openMenu()" id="openMenu">
@@ -34,9 +36,30 @@
           </a>
         </ul>
         <!-- ! close menu btn 👇 -->
-        <div class="closeMenu" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></div>
+        <div class="closeMenu" onclick="closeMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
       </div>
     </nav>
+
+    <header>
+      <div class="image">
+        <img src="../img/node.js logo.jpg" alt="" srcset="" />
+      </div>
+      <!-- ** end image -->
+
+      <!-- ** start header dec -->
+      <div class="header-dec">
+        <h1>Welcome From Server</h1>
+        <h3>created by node.js and express</h3>
+        <!--  ** start header buttons -->
+        <div class="header-btns">
+          <button>Check api🥰</button>
+        </div>
+        <!--  ** end header btns -->
+      </div>
+      <!-- *** end header dec -->
+    </header>
 
     <!--  link fontawesome -->
     <script
